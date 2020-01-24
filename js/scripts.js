@@ -1,9 +1,7 @@
 $(document).ready(function() {
-	$(form#input).submit(function(event){
-		event.preventDefault();
-
+	$("form#input").submit(function(event) {
 		
-		var number = $(#num).val();
+	
 		var result = [];
 		
 
@@ -20,11 +18,10 @@ $(document).ready(function() {
 			}
 		}
 		return result;
-	}
 
-	// $(".list").text(result);
-
-
-
+		event.preventDefault();
+		
 	});
+
+
 });
