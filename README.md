@@ -2,10 +2,10 @@
 #### 01.24.2020
 #### By Tiffany Nguyen
 ## Description
-
+This web application allows user to input a number that will spit out a list of number in which "1", "2", and "3" are replaced by a string of text.
 
 ## Link
-
+https://tiffany713.github.io/beep-boop/
 
 ## Setup/Installation Requirements
 * Click the green button labeld "Clone or download" located in the "Clone with HTTPs" section.

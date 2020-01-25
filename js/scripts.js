@@ -32,8 +32,7 @@ $(document).ready(function() {
 			}
 		}
 		return result;
-		
-		console.log(number);
+
 
 		event.preventDefault();
 		
