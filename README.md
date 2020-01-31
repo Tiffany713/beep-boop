@@ -17,20 +17,20 @@ https://tiffany713.github.io/beep-boop/
 
 ## Specs
 * Spec: The program returns a range of numbers from 0 to the users inputted number
+    * Input: "5"
+    * Output: "0,1,2,3,4,5"
+* Spec: An exception to that is, if the list of numbers contain a 1, then all digits are replaced with "Beep!"
     * Input: "4"
-    * Output: "0,1,2,3,4"
-* Spec: It's exception, if the numbers contain a 1, then all digits are replaced with "Beep!"
-    * Input: "14"
     * Output: "0, Beep!, 2, 3, 4"
-* Spec: It's exception, if the numbers contain a 2, then all digits are replaced with "Boop!"
-    * Input: "24"
+* Spec: Another exception is, if the list of numbers contain a 2, then all digits are replaced with "Boop!"
+    * Input: "4"
     * Output: "0, 1, Boop!, 3, 4"
-* Spec: It's exception, if the numbers contain a 3, then all digits are replaced with "I'm sorry, Dave. I'm afraid I can't do that."
-    * Input: "34"
+* Spec: The third exception is, if the list of numbers contain a 3, then all digits are replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+    * Input: "4"
     * Output: "0, 1, 2, "I'm sorry, Dave. I'm afraid I can't do that.", 4"
-* Spec: The first exception should apply unless the second exception does, and the same with the second and third
-    * Input: "13"
-    * Output: "I'm sorry, Dave. I'm afraid I can't do that."
+* Spec: If the number includes a combonation of 1,2, or 3, then the condition for 3 will take precedence over the condition 1 and 2. If the number contains both 1 and 2, then the condition for 2 will take precedence over 1.
+    * Input: "14"
+    * Output: 0,Beep!,Boop!,I'm sorry, Dave. I'm afraid I can't do that.,4,5,6,7,8,9,Beep!,Beep!,Boop!,I'm sorry, Dave. I'm afraid I can't do that.,Beep!
 
 ## Support and contact details
 If you have any questions or concerns, contact me at *****@gmail.com. If you know how to fix the known bug, please go ahead and make a contribution to the code.
