@@ -21,11 +21,11 @@ $(document).ready(function() {
 
 		for(i=0; i<= userInput; i+= 1) {
 			if (i.toString().includes("1")) {
-			result.replace("Beep!");
+			result.push("Beep!");
 			} else if (i.toString().includes("2")) {
-			result.replace("Boop!");
+			result.push("Boop!");
 			} else if (i.toString().includes("3")) {
-			result.replace("I'm sorry, Dave. I'm afraid I can't do that.");
+			result.push("I'm sorry, Dave. I'm afraid I can't do that.");
 			} 
 			else {
 			result.push(" " +i);
