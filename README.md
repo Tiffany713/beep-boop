@@ -8,8 +8,7 @@ This web application allows user to input a number that will spit out a list of 
 https://tiffany713.github.io/beep-boop/
 
 ## Setup/Installation Requirements
-* Click the green button labeld "Clone or download" located in the "Clone with HTTPs" section.
-* Copy the URL of the repository
+* Copy this URL: https://github.com/Tiffany713/beep-boop.git
 * Open your Terminal on your local device
 * Change your current working directory to the location you would like to clone the repository
 * Once you have navigated to your desired directory, type down "git clone" and paste the URL right after
